@@ -11,5 +11,5 @@ then run:
 
 # Screenshots
 
-!(screenshots/1st.png)
-!(screenshots/results.png)
+!(./screenshots/1st.png)
+!(./screenshots/results.png)
