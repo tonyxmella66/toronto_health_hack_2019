@@ -11,4 +11,4 @@ then run:
 
 # Screenshots
 ![alt text](https://raw.githubusercontent.com/AnthonyMella66/toronto_health_hack_2019/master/screenshots/1st.png "Logo Title Text 1")
-![alt text](https://github.com/AnthonyMella66/toronto_health_hack_2019/blob/master/screenshots/1st.png "Logo Title Text 1")
+![alt text](https://github.com/AnthonyMella66/toronto_health_hack_2019/blob/master/screenshots/results.png "Logo Title Text 1")
