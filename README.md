@@ -1,4 +1,6 @@
 # SenseRx
+A smart search tool using machine learning to pick contextually appropriate medications
+# install instructions
 to install requirements: pip install -r requirements.txt
 
 to run the flask app, navigate to the project directory within your terminal, set an environment variable:
