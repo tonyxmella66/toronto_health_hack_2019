@@ -11,5 +11,5 @@ then run:
 
 # Screenshots
 
-!(./screenshots/1st.png)
-!(./screenshots/results.png)
+!(https://raw.githubusercontent.com/AnthonyMella66/toronto_health_hack_2019/master/screenshots/1st.png)
+!(https://raw.githubusercontent.com/AnthonyMella66/toronto_health_hack_2019/master/screenshots/results.png)
