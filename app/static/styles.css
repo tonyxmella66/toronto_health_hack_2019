@@ -83,3 +83,7 @@ color: #39cadd;
     padding: 100px;
     background:rgb(42, 126, 160) !important;
 }
+
+.results_box p {
+    color: white;
+}
