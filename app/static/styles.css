@@ -1,0 +1,89 @@
+
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #429bbe !important;
+    }
+
+.searchbar{
+margin-bottom: auto;
+margin-top: auto;
+height: 60px;
+background-color: #353b48;
+border-radius: 30px;
+padding: 10px;
+}
+
+.search_input{
+color: white;
+border: 0;
+outline: 0;
+background: none;
+width: 0;
+caret-color:transparent;
+line-height: 40px;
+transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_input{
+padding: 0 10px;
+width: 450px;
+caret-color:rgb(72, 172, 202);
+transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon{
+background: white;
+color: #39cadd;
+}
+    
+.search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+}
+
+.search_title {
+    font: 200 32px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 25px;
+    background: #f1f4f5 !important;
+}
+
+.search_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 25px;
+    background: #f1f4f5 !important;
+}
+
+.results_box {
+    font: 200 32px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 100px;
+    background:rgb(42, 126, 160) !important;
+}
+
+.results_box p {
+    color: white;
+}
