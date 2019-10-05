@@ -49,16 +49,16 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">Search for reccomended drugs based on ICU stay ID</h1>
+          <h1 class="mb-5">Search for recommended drugs based on ICU stay ID</h1>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
           <form action="/search" method="POST">
             <div class="form-row">
               <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="text" name="stay_id" class="form-control form-control-lg" placeholder="Enter your ISU stay ID...">
+                <input type="text" name="stay_id" class="form-control form-control-lg" placeholder="Enter your ICU stay ID...">
               </div>
               <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Search</button>
+                <button type="submit" class="btn btn-block btn-lg btn-primary" onClick="document.getElementById('results_id').scrollIntoView();">Search</button>
               </div>
             </div>
           </form>
@@ -81,11 +81,9 @@
   </section>
 
   <!-- Image Showcases -->
-  <section>
+  <section id="results_id">
     <div class="results_box">
-      <strong>
-        Results
-      </strong>
+      {{ results }}
     </div>
   </section>
 
