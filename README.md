@@ -8,3 +8,8 @@ to run the flask app, navigate to the project directory within your terminal, se
 then run:
 
 ```flask run```
+
+# Screenshots
+
+[screenshots/1st.png]
+[screenshots/results.png]
